@@ -1,0 +1,72 @@
+Feature,Detailed Feature,SQL,InnoDB,MyISAM,Memory,Archive,CSV,Aria,Mroonga,RocksDB
+Data type,Numeric,BIT,√,√,√,×,×,√,√,√
+Data type,Numeric,TINYINT,√,√,√,√,√,√,√,√
+Data type,Numeric,SMALLINT,√,√,√,√,√,√,√,√
+Data type,Numeric,MEDIUMINT,√,√,√,√,√,√,√,√
+Data type,Numeric,INT,√,√,√,√,√,√,√,√
+Data type,Numeric,BIGINT,√,√,√,√,√,√,√,√
+Data type,Numeric,BOOL,√,√,√,√,√,√,√,√
+Data type,Numeric,DECIMAL,√,√,√,√,√,√,√,√
+Data type,Numeric,FLOAT,√,√,√,√,√,√,√,√
+Data type,Numeric,DOUBLE,√,√,√,√,√,√,√,√
+Data type,Date,DATE,√,√,√,√,√,√,√,√
+Data type,Date,TIME,√,√,√,√,√,√,√,√
+Data type,Date,DATETIME,√,√,√,√,√,√,√,√
+Data type,Date,TIMESTAMP,√,√,√,√,√,√,√,√
+Data type,Date,YEAR,√,√,√,√,√,√,√,√
+Data type,String,CHAR,√,√,√,√,√,√,√,√
+Data type,String,VARCHAR,√,√,√,√,√,√,√,√
+Data type,String,BINARY,√,√,√,√,√,√,√,√
+Data type,String,VARBINARY,√,√,√,√,√,√,√,√
+Data type,String,TINYBLOB,√,√,√,√,√,√,√,√
+Data type,String,BLOB,√,√,√,√,√,√,√,√
+Data type,String,MEDIUMBLOB,√,√,√,√,√,√,√,√
+Data type,String,LONGBLOB,√,√,√,√,√,√,√,√
+Data type,String,TEXT,√,√,√,√,√,√,√,√
+Data type,String,MEDIUMTEXT,√,√,√,√,√,√,√,√
+Data type,String,LONGTEXT,√,√,√,√,√,√,√,√
+Data type,String,ENUM,√,√,√,√,√,√,√,√
+Data type,String,SET,√,√,√,√,√,√,√,√
+Data type,Spatial,GEOMETRY,√,√,×,√,√,√,√,√
+Data type,Spatial,POINT,√,√,×,√,√,√,√,√
+Data type,Spatial,LINESTRING,√,√,×,√,√,√,√,√
+Data type,Spatial,POLYGON,√,√,×,√,√,√,√,√
+Data type,Spatial,MULTIPOINT,√,√,×,√,√,√,√,√
+Data type,Spatial,MULTILINESTRING,√,√,×,√,√,√,√,√
+Data type,Spatial,MULTIPOLYGON,√,√,×,√,√,√,√,√
+Data type,Spatial,GEOMETRYCOLLECTION,√,√,×,√,√,√,√,√
+Data type,Json,JSON,√,√,√,√,√,√,√,√
+Index Type,B-Tree,BTREE,√,√,√,×,×,√,√,√
+Index Type,Hash,HASH,×,×,√,×,×,√,√,√
+Index Type,Geospatial,SPATIAL,√,√,×,×,×,√,√,√
+Index Type,Clustered,PRIMARY KEY,√,√,√,√,×,√,√,√
+Index Type,Multi-valued,zips,√,√,√,√,×,√,√,√
+Index Type,Full-text,FULLTEXT,√,√,×,×,×,√,√,√
+Data Integrity,Unique,UNIQUE,√,√,√,√,√,√,√,√
+Data Integrity,Foreign key,FOREIGN KEY,√,×,×,×,×,√,√,×
+Data Integrity,Primary Key,AUTO_INCREMENT,√,√,√,√,√,√,√,√
+Data Integrity,Triggers,CREATE TRIGGER,√,√,√,√,√,√,√,√
+Data Integrity,Check Constraint,CHECK,√,√,√,√,√,√,√,√
+Partition,Partition,RANGE,√,√,√,×,×,√,×,√
+Partition,Partition,LIST,√,√,√,×,×,√,×,√
+Partition,Partition,COLUMNS,√,√,√,×,×,√,×,√
+Partition,Partition,HASH,√,√,√,×,×,√,×,√
+Partition,Partition,KEY,√,√,√,×,×,√,×,√
+Partition,Partition,SUBPARTITION,√,√,√,×,×,√,×,√
+Encryption,Encryption,AES_ENCRYPT,√,√,√,√,√,√,√,√
+Encryption,Encryption,ENCRYPTED=YES,√,√,√,√,√,√,√,√
+Encryption,Encryption,ENCRYPT,√,√,√,√,√,√,√,√
+Encryption,Encryption,DECRYPT,√,√,√,√,√,√,√,√
+Encryption,Encryption,SHA2,√,√,√,√,√,√,√,√
+Encryption,Encryption,MD5,√,√,√,√,√,√,√,√
+Compression,Compression,COMPRESS,√,√,×,√,√,√,√,√
+Compression,Compression,ROW_FORMAT=COMPRESSED,√,√,×,√,√,√,√,√
+Transaction,Transaction,SAVEPOINT,√,×,×,×,×,√,×,√
+Transaction,Transaction,COMMIT,√,×,×,×,×,√,×,√
+Transaction,Transaction,ROLLBACK,√,×,×,×,×,√,×,√
+Health-Check,Check table,CHECK TABLE,√,√,×,√,√,√,√,√
+Health-Check,Repair table,REPAIR TABLE,√,√,×,√,√,√,√,√
+Cache,Flush table,FLUSH TABLES,√,×,×,×,×,√,√,√
+Cache,Cache index,LOAD INDEX INTO CACHE,√,√,√,×,×,√,√,√
+Update statistics,Analyze table,ANALYZE TABLE,√,√,×,×,×,√,√,√
+Update statistics,optimize table,OPTIMIZE TABLE,√,√,×,√,×,√,√,√
