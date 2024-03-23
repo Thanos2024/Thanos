@@ -1,0 +1,289 @@
+Index Type,B-Tree,BTREE-InnoDB
+Index Type,B-Tree,BTREE-MyISAM
+Index Type,B-Tree,BTREE-Memory
+Index Type,Hash,HASH-Memory
+Index Type,Geospatial,SPATIAL-InnoDB
+Index Type,Geospatial,SPATIAL-MyISAM
+Index Type,Clustered,PRIMARY KEY-InnoDB
+Index Type,Clustered,PRIMARY KEY-MyISAM
+Index Type,Clustered,PRIMARY KEY-Memory
+Index Type,Clustered,PRIMARY KEY-Archive
+Index Type,Multi-valued,zips-InnoDB
+Index Type,Multi-valued,zips-MyISAM
+Index Type,Multi-valued,zips-Memory
+Index Type,Multi-valued,zips-Archive
+Index Type,Full-text,FULLTEXT-InnoDB
+Index Type,Full-text,FULLTEXT-MyISAM
+Data type,Numeric,BIT-InnoDB
+Data type,Numeric,BIT-MyISAM
+Data type,Numeric,BIT-Memory
+Data type,Numeric,TINYINT-InnoDB
+Data type,Numeric,TINYINT-MyISAM
+Data type,Numeric,TINYINT-Memory
+Data type,Numeric,TINYINT-Archive
+Data type,Numeric,TINYINT-CSV
+Data type,Numeric,SMALLINT-InnoDB
+Data type,Numeric,SMALLINT-MyISAM
+Data type,Numeric,SMALLINT-Memory
+Data type,Numeric,SMALLINT-Archive
+Data type,Numeric,SMALLINT-CSV
+Data type,Numeric,MEDIUMINT-InnoDB
+Data type,Numeric,MEDIUMINT-MyISAM
+Data type,Numeric,MEDIUMINT-Memory
+Data type,Numeric,MEDIUMINT-Archive
+Data type,Numeric,MEDIUMINT-CSV
+Data type,Numeric,INT-InnoDB
+Data type,Numeric,INT-MyISAM
+Data type,Numeric,INT-Memory
+Data type,Numeric,INT-Archive
+Data type,Numeric,INT-CSV
+Data type,Numeric,BIGINT-InnoDB
+Data type,Numeric,BIGINT-MyISAM
+Data type,Numeric,BIGINT-Memory
+Data type,Numeric,BIGINT-Archive
+Data type,Numeric,BIGINT-CSV
+Data type,Numeric,BOOL-InnoDB
+Data type,Numeric,BOOL-MyISAM
+Data type,Numeric,BOOL-Memory
+Data type,Numeric,BOOL-Archive
+Data type,Numeric,BOOL-CSV
+Data type,Numeric,DECIMAL-InnoDB
+Data type,Numeric,DECIMAL-MyISAM
+Data type,Numeric,DECIMAL-Memory
+Data type,Numeric,DECIMAL-Archive
+Data type,Numeric,DECIMAL-CSV
+Data type,Numeric,FLOAT-InnoDB
+Data type,Numeric,FLOAT-MyISAM
+Data type,Numeric,FLOAT-Memory
+Data type,Numeric,FLOAT-Archive
+Data type,Numeric,FLOAT-CSV
+Data type,Numeric,DOUBLE-InnoDB
+Data type,Numeric,DOUBLE-MyISAM
+Data type,Numeric,DOUBLE-Memory
+Data type,Numeric,DOUBLE-Archive
+Data type,Numeric,DOUBLE-CSV
+Data type,Date & Time,DATE-InnoDB
+Data type,Date & Time,DATE-MyISAM
+Data type,Date & Time,DATE-Memory
+Data type,Date & Time,DATE-Archive
+Data type,Date & Time,DATE-CSV
+Data type,Date & Time,TIME-InnoDB
+Data type,Date & Time,TIME-MyISAM
+Data type,Date & Time,TIME-Memory
+Data type,Date & Time,TIME-Archive
+Data type,Date & Time,TIME-CSV
+Data type,Date & Time,DATETIME-InnoDB
+Data type,Date & Time,DATETIME-MyISAM
+Data type,Date & Time,DATETIME-Memory
+Data type,Date & Time,DATETIME-Archive
+Data type,Date & Time,DATETIME-CSV
+Data type,Date & Time,TIMESTAMP-InnoDB
+Data type,Date & Time,TIMESTAMP-MyISAM
+Data type,Date & Time,TIMESTAMP-Memory
+Data type,Date & Time,TIMESTAMP-Archive
+Data type,Date & Time,TIMESTAMP-CSV
+Data type,Date & Time,YEAR-InnoDB
+Data type,Date & Time,YEAR-MyISAM
+Data type,Date & Time,YEAR-Memory
+Data type,Date & Time,YEAR-Archive
+Data type,Date & Time,YEAR-CSV
+Data type,String,CHAR-InnoDB
+Data type,String,CHAR-MyISAM
+Data type,String,CHAR-Memory
+Data type,String,CHAR-Archive
+Data type,String,CHAR-CSV
+Data type,String,VARCHAR-InnoDB
+Data type,String,VARCHAR-MyISAM
+Data type,String,VARCHAR-Memory
+Data type,String,VARCHAR-Archive
+Data type,String,VARCHAR-CSV
+Data type,String,BINARY-InnoDB
+Data type,String,BINARY-MyISAM
+Data type,String,BINARY-Memory
+Data type,String,BINARY-Archive
+Data type,String,BINARY-CSV
+Data type,String,VARBINARY-InnoDB
+Data type,String,VARBINARY-MyISAM
+Data type,String,VARBINARY-Memory
+Data type,String,VARBINARY-Archive
+Data type,String,VARBINARY-CSV
+Data type,String,TINYBLOB-InnoDB
+Data type,String,TINYBLOB-MyISAM
+Data type,String,TINYBLOB-Memory
+Data type,String,TINYBLOB-Archive
+Data type,String,TINYBLOB-CSV
+Data type,String,BLOB-InnoDB
+Data type,String,BLOB-MyISAM
+Data type,String,BLOB-Memory
+Data type,String,BLOB-Archive
+Data type,String,BLOB-CSV
+Data type,String,MEDIUMBLOB-InnoDB
+Data type,String,MEDIUMBLOB-MyISAM
+Data type,String,MEDIUMBLOB-Memory
+Data type,String,MEDIUMBLOB-Archive
+Data type,String,MEDIUMBLOB-CSV
+Data type,String,LONGBLOB-InnoDB
+Data type,String,LONGBLOB-MyISAM
+Data type,String,LONGBLOB-Memory
+Data type,String,LONGBLOB-Archive
+Data type,String,LONGBLOB-CSV
+Data type,String,TEXT-InnoDB
+Data type,String,TEXT-MyISAM
+Data type,String,TEXT-Memory
+Data type,String,TEXT-Archive
+Data type,String,TEXT-CSV
+Data type,String,MEDIUMTEXT-InnoDB
+Data type,String,MEDIUMTEXT-MyISAM
+Data type,String,MEDIUMTEXT-Memory
+Data type,String,MEDIUMTEXT-Archive
+Data type,String,MEDIUMTEXT-CSV
+Data type,String,LONGTEXT-InnoDB
+Data type,String,LONGTEXT-MyISAM
+Data type,String,LONGTEXT-Memory
+Data type,String,LONGTEXT-Archive
+Data type,String,LONGTEXT-CSV
+Data type,String,ENUM-InnoDB
+Data type,String,ENUM-MyISAM
+Data type,String,ENUM-Memory
+Data type,String,ENUM-Archive
+Data type,String,ENUM-CSV
+Data type,String,SET-InnoDB
+Data type,String,SET-MyISAM
+Data type,String,SET-Memory
+Data type,String,SET-Archive
+Data type,String,SET-CSV
+Data type,Spatial,GEOMETRY-InnoDB
+Data type,Spatial,GEOMETRY-MyISAM
+Data type,Spatial,GEOMETRY-Archive
+Data type,Spatial,GEOMETRY-CSV
+Data type,Spatial,POINT-InnoDB
+Data type,Spatial,POINT-MyISAM
+Data type,Spatial,POINT-Archive
+Data type,Spatial,POINT-CSV
+Data type,Spatial,LINESTRING-InnoDB
+Data type,Spatial,LINESTRING-MyISAM
+Data type,Spatial,LINESTRING-Archive
+Data type,Spatial,LINESTRING-CSV
+Data type,Spatial,POLYGON-InnoDB
+Data type,Spatial,POLYGON-MyISAM
+Data type,Spatial,POLYGON-Archive
+Data type,Spatial,POLYGON-CSV
+Data type,Spatial,MULTIPOINT-InnoDB
+Data type,Spatial,MULTIPOINT-MyISAM
+Data type,Spatial,MULTIPOINT-Archive
+Data type,Spatial,MULTIPOINT-CSV
+Data type,Spatial,MULTILINESTRING-InnoDB
+Data type,Spatial,MULTILINESTRING-MyISAM
+Data type,Spatial,MULTILINESTRING-Archive
+Data type,Spatial,MULTILINESTRING-CSV
+Data type,Spatial,MULTIPOLYGON-InnoDB
+Data type,Spatial,MULTIPOLYGON-MyISAM
+Data type,Spatial,MULTIPOLYGON-Archive
+Data type,Spatial,MULTIPOLYGON-CSV
+Data type,Spatial,GEOMETRYCOLLECTION-InnoDB
+Data type,Spatial,GEOMETRYCOLLECTION-MyISAM
+Data type,Spatial,GEOMETRYCOLLECTION-Archive
+Data type,Spatial,GEOMETRYCOLLECTION-CSV
+Data type,Json,JSON-InnoDB
+Data type,Json,JSON-MyISAM
+Data type,Json,JSON-Memory
+Data type,Json,JSON-Archive
+Data type,Json,JSON-CSV
+Data Integrity,Unique,UNIQUE-InnoDB
+Data Integrity,Unique,UNIQUE-MyISAM
+Data Integrity,Unique,UNIQUE-Memory
+Data Integrity,Unique,UNIQUE-Archive
+Data Integrity,Unique,UNIQUE-CSV
+Data Integrity,Foreign key,FOREIGN KEY-InnoDB
+Data Integrity,Primary key,AUTO_INCREMENT-InnoDB
+Data Integrity,Primary key,AUTO_INCREMENT-MyISAM
+Data Integrity,Primary key,AUTO_INCREMENT-Memory
+Data Integrity,Primary key,AUTO_INCREMENT-Archive
+Data Integrity,Primary key,AUTO_INCREMENT-CSV
+Data Integrity,Triggers,CREATE TRIGGER-InnoDB
+Data Integrity,Triggers,CREATE TRIGGER-MyISAM
+Data Integrity,Triggers,CREATE TRIGGER-Memory
+Data Integrity,Triggers,CREATE TRIGGER-Archive
+Data Integrity,Triggers,CREATE TRIGGER-CSV
+Data Integrity,Check Constraint,CHECK-InnoDB
+Data Integrity,Check Constraint,CHECK-MyISAM
+Data Integrity,Check Constraint,CHECK-Memory
+Data Integrity,Check Constraint,CHECK-Archive
+Data Integrity,Check Constraint,CHECK-CSV
+Encryption,Encryption,AES_ENCRYPT-InnoDB
+Encryption,Encryption,AES_ENCRYPT-MyISAM
+Encryption,Encryption,AES_ENCRYPT-Memory
+Encryption,Encryption,AES_ENCRYPT-Archive
+Encryption,Encryption,AES_ENCRYPT-CSV
+Encryption,Encryption,ENCRYPTED=YES-InnoDB
+Encryption,Encryption,ENCRYPTED=YES-MyISAM
+Encryption,Encryption,ENCRYPTED=YES-Memory
+Encryption,Encryption,ENCRYPTED=YES-Archive
+Encryption,Encryption,ENCRYPTED=YES-CSV
+Encryption,Encryption,ENCRYPT-InnoDB
+Encryption,Encryption,ENCRYPT-MyISAM
+Encryption,Encryption,ENCRYPT-Memory
+Encryption,Encryption,ENCRYPT-Archive
+Encryption,Encryption,ENCRYPT-CSV
+Encryption,Encryption,DECRYPT-InnoDB
+Encryption,Encryption,DECRYPT-MyISAM
+Encryption,Encryption,DECRYPT-Memory
+Encryption,Encryption,DECRYPT-Archive
+Encryption,Encryption,DECRYPT-CSV
+Encryption,Encryption,SHA2-InnoDB
+Encryption,Encryption,SHA2-MyISAM
+Encryption,Encryption,SHA2-Memory
+Encryption,Encryption,SHA2-Archive
+Encryption,Encryption,SHA2-CSV
+Encryption,Encryption,MD5-InnoDB
+Encryption,Encryption,MD5-MyISAM
+Encryption,Encryption,MD5-Memory
+Encryption,Encryption,MD5-Archive
+Encryption,Encryption,MD5-CSV
+Compression,Compression,COMPRESS-InnoDB
+Compression,Compression,COMPRESS-MyISAM
+Compression,Compression,COMPRESS-Archive
+Compression,Compression,COMPRESS-CSV
+Compression,Compression,ROW_FORMAT=COMPRESSED-InnoDB
+Compression,Compression,ROW_FORMAT=COMPRESSED-MyISAM
+Compression,Compression,ROW_FORMAT=COMPRESSED-Archive
+Compression,Compression,ROW_FORMAT=COMPRESSED-CSV
+Transaction,Transaction,SAVEPOINT-InnoDB
+Transaction,Transaction,COMMIT-InnoDB
+Transaction,Transaction,ROLLBACK-InnoDB
+Health-Check,Check table,CHECK TABLE-InnoDB
+Health-Check,Check table,CHECK TABLE-MyISAM
+Health-Check,Check table,CHECK TABLE-Archive
+Health-Check,Check table,CHECK TABLE-CSV
+Health-Check,Repair table,REPAIR TABLE-InnoDB
+Health-Check,Repair table,REPAIR TABLE-MyISAM
+Health-Check,Repair table,REPAIR TABLE-Archive
+Health-Check,Repair table,REPAIR TABLE-CSV
+Cache,Cache index,FLUSH TABLES-InnoDB
+Cache,Cache index,LOAD INDEX INTO CACHE-InnoDB
+Cache,Cache index,LOAD INDEX INTO CACHE-MyISAM
+Cache,Cache index,LOAD INDEX INTO CACHE-Memory
+Update statistics,Analyze table,ANALYZE TABLE-InnoDB
+Update statistics,Analyze table,ANALYZE TABLE-MyISAM
+Update statistics,optimize table,OPTIMIZE TABLE-InnoDB
+Update statistics,optimize table,OPTIMIZE TABLE-MyISAM
+Update statistics,optimize table,OPTIMIZE TABLE-Archive
+Partition,Partition,RANGE-InnoDB
+Partition,Partition,RANGE-MyISAM
+Partition,Partition,RANGE-Memory
+Partition,Partition,LIST-InnoDB
+Partition,Partition,LIST-MyISAM
+Partition,Partition,LIST-Memory
+Partition,Partition,COLUMNS-InnoDB
+Partition,Partition,COLUMNS-MyISAM
+Partition,Partition,COLUMNS-Memory
+Partition,Partition,HASH-InnoDB
+Partition,Partition,HASH-MyISAM
+Partition,Partition,HASH-Memory
+Partition,Partition,KEY-InnoDB
+Partition,Partition,KEY-MyISAM
+Partition,Partition,KEY-Memory
+Partition,Partition,SUBPARTITION-InnoDB
+Partition,Partition,SUBPARTITION-MyISAM
+Partition,Partition,SUBPARTITION-Memory
+Partition,Partition,SUBPARTITION-RocksDB
